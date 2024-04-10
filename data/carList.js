@@ -26,5 +26,4 @@ export const carList = [
   },
 ];
 
-export const api_key =
-  "pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw";
+export const api_key = process.env.NEXT_PUBLIC_API_KEY;
